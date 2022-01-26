@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c7efc161a324c0b8271d4e4d11a7878" Name="Diagram1">
+        <EntityTypeShape EntityType="WSRModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Заказ" Width="1.5" PointX="2.125" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Заказанные_изделия" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Изделие" Width="1.5" PointX="0.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Пользователь" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Склад_ткани" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Склад_фурнитуры" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Ткань" Width="1.5" PointX="0.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Фурнитура" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSRModel.Фурнитура_изделия" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="WSRModel.FK__Заказ__Заказчик__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK__Заказ__Менеджер__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK__Заказанны__Номер__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK_Заказанные_изделия_Изделие" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK_Фурнитура_изделия_Изделие" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK_Склад_ткани_Ткань" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK_Склад_фурнитуры_Фурнитура" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.FK_Фурнитура_изделия_Фурнитура" ManuallyRouted="false" />
+        <AssociationConnector Association="WSRModel.Ткани_изделия" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
